@@ -13,7 +13,7 @@ noOutline = LineStyle(0,black)
 rectangle = RectangleAsset(200,200,noOutline,blue)
 circle = CircleAsset(100,noOutline,green)
 triangle = PolygonAsset([(100,200), (350,100), (500,200)],noOutline,red)
-
+ellipse = EllipseAsset(100,50,noOutline,yellow)
 
 
 
@@ -27,4 +27,5 @@ triangle = PolygonAsset([(100,200), (350,100), (500,200)],noOutline,red)
 Sprite(rectangle,(200,200))
 Sprite(circle,(100,300))
 Sprite(triangle,(300,100))
+Sprite(ellipse,(350,200))
 App().run()

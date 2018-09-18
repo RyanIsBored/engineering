@@ -10,7 +10,7 @@ yellow = Color(0xFFFF00,1)
 
 noOutline = LineStyle(0,black)
 
-rectangle = RectangleAsset(400,400,noOutline,blue)
+rectangle = RectangleAsset(200,200,noOutline,blue)
 
 
 

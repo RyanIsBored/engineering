@@ -11,6 +11,7 @@ yellow = Color(0xFFFF00,1)
 noOutline = LineStyle(0,black)
 
 rectangle = RectangleAsset(200,200,noOutline,blue)
+circle = CircleAsset(100,noOutline,green)
 
 
 
@@ -24,5 +25,5 @@ rectangle = RectangleAsset(200,200,noOutline,blue)
 
 
 Sprite(rectangle,(200,200))
-
+Sprite(circle,(100,300))
 App().run()

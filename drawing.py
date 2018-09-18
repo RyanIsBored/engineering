@@ -15,7 +15,7 @@ rectangle = RectangleAsset(200,200,noOutline,blue)
 circle = CircleAsset(100,noOutline,green)
 triangle = PolygonAsset([(100,200), (350,100), (500,200)],noOutline,red)
 ellipse = EllipseAsset(100,50,noOutline,yellow)
-line = LineAsset(50,160,yesOutline)
+line = LineAsset(100,160,yesOutline)
 
 
 

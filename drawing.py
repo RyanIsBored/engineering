@@ -18,3 +18,11 @@ rectangle = RectangleAsset(400,400,noOutline,blue)
 
 
 
+
+
+
+
+
+Sprite(rectangle,(200,200))
+
+App().run()
